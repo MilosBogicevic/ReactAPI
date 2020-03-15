@@ -25,7 +25,7 @@ class App extends Component {
     let { isLoaded, items } = this.state;
 
     if (!isLoaded) {
-      return <div>LOading....</div>;
+      return <div>Loading data...</div>;
     } else {
       return (
         <div className="App">
