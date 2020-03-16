@@ -33,7 +33,7 @@ class App extends Component {
             {items.map(item => (
               <li key={item.id}>
                 <strong>Name:</strong> {item.name} <br />
-                <strong>Email:</strong> {item.email} <br />{" "}
+                <strong>Email:</strong> {item.email} <br />
                 <strong>City: </strong>
                 {item.address.city} <br /> <strong>Phone:</strong> {item.phone}
                 <br />
